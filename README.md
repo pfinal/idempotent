@@ -14,7 +14,7 @@ composer require pfinal/idempotent
 CREATE TABLE `idempotent` (
     `id` bigint(11) unsigned NOT NULL AUTO_INCREMENT,
     `seq` varchar(50) NOT NULL DEFAULT '' COMMENT '请求序号',
-    `response` longtext NOT NULL DEFAULT '' COMMENT '响应内容',
+    `response` longtext  COMMENT '响应内容',
     `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`),
     UNIQUE KEY `ind_seq` (`seq`)
