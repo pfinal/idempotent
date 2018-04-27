@@ -1,5 +1,5 @@
 {
-    "name": "pfinal/Idempotent",
+    "name": "pfinal/idempotent",
     "description": "幂等",
     "license": "MIT",
     "homepage": "http://www.pfinal.cn",
