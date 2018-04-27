@@ -1,0 +1,19 @@
+{
+    "name": "pfinal/Idempotent",
+    "description": "幂等",
+    "license": "MIT",
+    "homepage": "http://www.pfinal.cn",
+    "authors": [
+        {
+            "name": "Zou Yiliang"
+        }
+    ],
+    "require": {
+        "pfinal/database": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PFinal\\Idempotent\\": "src/"
+        }
+    }
+}
