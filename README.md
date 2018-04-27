@@ -1,6 +1,13 @@
 # 接口幂等
 
-创建表
+## 安装
+
+```shell
+composer require pfinal/idempotent
+```
+
+
+## 创建表
 
 ```sql
 
@@ -14,7 +21,7 @@ CREATE TABLE `idempotent` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '幂等';
 ```
 
-调用实例
+## 调用实例
 
 ```php
 <?php
