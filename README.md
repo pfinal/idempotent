@@ -21,7 +21,7 @@ CREATE TABLE `idempotent` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '幂等';
 ```
 
-## 调用实例
+## 调用示例
 
 ```php
 <?php
@@ -32,6 +32,7 @@ include __DIR__ . '/vendor/autoload.php';
 //请求唯一标识
 $seq = 'c4ca4238a0b923820dcc509a6f75849a';
 
+//数据据库配置信息
 \PFinal\Idempotent\Idempotent::$config['db.config'] = [
     'dsn' => 'mysql:host=127.0.0.1;dbname=test',
     'username' => 'root',
